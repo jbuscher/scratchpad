@@ -1,10 +1,10 @@
 {
   "name": "scratchpad",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "node webapp",
-  "main": "server.js",
   "scripts": {
-    "test": "jasmine-node spec --forceexit"
+    "test": "jasmine-node spec --forceexit",
+    "start": "node server.js"
   },
   "author": "John Buscher",
   "license": "ISC",
