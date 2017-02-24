@@ -9,7 +9,7 @@ var port = process.env.PORT || 3000;
 
 // Initial dummy route for testing
 router.get('/', function(req, res) {
-	res.end('Hello, World!');
+	res.end('Hello, World 2.0!');
 });
 
 // Register all our routes

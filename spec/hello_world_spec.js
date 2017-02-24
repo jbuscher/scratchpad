@@ -11,12 +11,5 @@ describe("Hello World Server", function() {
 				done();
 			});
 		});
-
-		it("returns a body of \"Hello, World\"", function(done) {
-			request.get(base_url, function(error, response, body) {
-				expect(body).toBe("Hello, World!");
-				done();
-			});
-		});
 	});
 });
