@@ -1,8 +1,9 @@
 language: node_js
 node_js:
-- '7'
+  - '7'
+
 deploy:
   provider: heroku
-  app: evening-basin-22865
   api_key:
     secure: vEYyrbJiM3PCFYZsoA/Iv6CYyakxC40ykl/zWvqsqzmUqvN/UI0q2Lo7OpBdc9Juv0IWlOC6NnxiDBjTCCV7c2JDGgalupIscudxB0BBCJXBFmTpBjdu4XFqhfJv+Vutb8t/6bi1Ty8zhZ/MLQCunYpAv53GB4yYfim7xETFBtRwNlpCIgN6b8FDjHh4kKmWNuUK7l2GKv3K3IJ78hyGn7zOSwbnOhFhc2HMhU7cO5QE0R5i2IAMyOGaBAiJKQ8JZfd9GsB7L+6qnJ5GM9CKD+1Bs5l+w2LIiWG0aS0mjD8vxLR0EAGnCOlvpzl33wDP4OI3Qa5KFhHuoSpPRePI/q3b93uqV0dLi3XvntJhiVNv7H7brmKhrjTlkrzbBOwRa2JCwhNZz8Rd+NJGK8aE3+oOsJ3wdgQ3ZUmiYCqm/pkZj2Z1hvsA/Zcfow0HvF0mZGYcZChaqfyxsxbPkZPS5wPKDtCClmCAPMqEQ8PIRRqdjVDmN08EM8JxZQ4gMFA+rVLkS6Lj1XzLnAQgNbMkqkbJTDF6sQKLdRQFfg6/1IbVTpwHjsp/bkWtMrCcJMYeSp4MQcv8ZAETyRE9e76zzvePUBvKKKiHRDRNlYGaqGKmztSJR6DWKKCwHC3QuN6hGQdk2Q1DO0Ohf29UpXLWaXZc1JaoEh5k/Bwr/qHQe0k=
+  app: evening-basin-22865
