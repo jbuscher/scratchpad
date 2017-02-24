@@ -18,12 +18,5 @@ describe("Hello World Server", function() {
 				done();
 			});
 		});
-
-		it("will definitely fail", function(done) {
-			request.get(base_url, function(error, response, body) {
-				expect(body).toBe("Goodbye, Cruel World!");
-				done();
-			});	
-		});
 	});
 });
