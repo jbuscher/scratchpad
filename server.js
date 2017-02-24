@@ -1,11 +1,11 @@
-// Load required packages
+// Imports
 var express = require('express');
 
-// Create our Express application
+// Initializations
 var app = express();
-
-// Create our Express router
 var router = express.Router();
+
+var port = process.env.PORT || 3000;
 
 // Initial dummy route for testing
 router.get('/', function(req, res) {
@@ -16,6 +16,6 @@ router.get('/', function(req, res) {
 app.use(router);
 
 // Start the server
-app.listen(3000, function() {
-	console.log("Hello, from the server");
+app.listen(port, function() {
+	console.log("Hello, from the server on port " + port);
 });
