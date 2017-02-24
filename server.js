@@ -16,6 +16,6 @@ router.get('/', function(req, res) {
 app.use(router);
 
 // Start the server
-app.listen(80, function() {
+app.listen(3000, function() {
 	console.log("Hello, from the server");
 });
