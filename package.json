@@ -4,7 +4,7 @@
   "description": "node webapp",
   "main": "server.js",
   "scripts": {
-    "test": "jasmine-node spec"
+    "test": "jasmine-node spec --forceexit"
   },
   "author": "John Buscher",
   "license": "ISC",
