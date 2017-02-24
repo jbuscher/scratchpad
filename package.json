@@ -4,8 +4,15 @@
   "description": "node webapp",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node spec"
   },
   "author": "John Buscher",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
